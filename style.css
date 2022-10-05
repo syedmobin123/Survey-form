@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:  rgba(27, 27, 50, 0.8);
+    color:white;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.top-heading{
+    place-items: center;
+    display: grid;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+background: #1b1b32;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+form > input{
+    padding:.5rem 0;
+    margin-bottom: 16px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.sugest > input{
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.form-group > label{
+  font-wieght: 400px;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+.form-group {
+  display:grid;
+  margin-top:10px;
+  padding:10px;
+}
+fieldset{
+    margin: 2rem;
+}
+#dropdown{
+    margin: 1rem;
+    padding: .4rem;
+}
+textarea{
+    display: flex;
+
+}
+.bottom-class{
+    display: grid;
+    place-items: center;
+}
+button{
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: .5rem;
+    cursor: pointer;
+    background-color: rgba(31, 248, 67, 0.774);
+
+}
+button:hover{
+    background-color: rgb(19, 253, 117);
+}
+
